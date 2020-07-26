@@ -18,7 +18,7 @@ app.use('/comments',commentRouter);
 //     res.send('welcome');
 // })
 
-mongoose.connect('mongodb://fahim:fahim@localhost:27017/TruckLagbeAnalytics',
+mongoose.connect('mongodb://fahim:fahim@localhost:27017/TestDb',
 { useNewUrlParser: true },() => {
     console.log('Connected to mongoDB');
 });
